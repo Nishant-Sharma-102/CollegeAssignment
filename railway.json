@@ -1,0 +1,23 @@
+{
+  "name": "collegeproject",
+  "services": [
+    {
+      "name": "backend",
+      "path": "backend",
+      "dockerfile": "backend/Dockerfile",
+      "env": [
+        "SPRING_DATASOURCE_URL",
+        "SPRING_DATASOURCE_USERNAME",
+        "SPRING_DATASOURCE_PASSWORD",
+        "JWT_SECRET",
+        "SERVER_PORT"
+      ]
+    },
+    {
+      "name": "frontend",
+      "path": "frontend",
+      "dockerfile": "frontend/Dockerfile",
+      "env": []
+    }
+  ]
+}
