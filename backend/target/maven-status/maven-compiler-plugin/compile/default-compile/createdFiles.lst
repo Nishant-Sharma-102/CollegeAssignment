@@ -1,5 +1,7 @@
 com\projectmanager\dto\TeamResponse.class
 com\projectmanager\service\UserService.class
+com\projectmanager\controller\TaskController.class
+com\projectmanager\service\TaskService.class
 com\projectmanager\controller\UserController.class
 com\projectmanager\dto\DashboardResponse.class
 com\projectmanager\dto\TaskRequest.class
